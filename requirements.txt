@@ -1,0 +1,20 @@
+# Flask web application
+Flask>=3.1,<4
+Werkzeug>=3.1,<4
+
+# Local Qwen model + automatic first-run download
+huggingface-hub>=0.30,<2
+--extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+llama-cpp-python>=0.3.35,<0.4
+
+# Real semantic RAG
+numpy>=2,<3
+sentence-transformers>=4,<7
+
+# Real document output
+reportlab>=4,<6
+python-docx>=1.1,<2
+
+# Tests
+pypdf>=5,<7
+pytest>=8,<10
